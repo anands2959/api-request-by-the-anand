@@ -1,0 +1,11 @@
+{
+    "name": "API Request",
+    "scopeName": "source.apiRequest",
+    "fileTypes": ["api"],
+    "patterns": [
+        {
+            "match": "(GET|POST|PUT|DELETE)",
+            "name": "keyword.httpMethod"
+        }
+    ]
+}
